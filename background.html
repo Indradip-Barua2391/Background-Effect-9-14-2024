@@ -30,6 +30,29 @@
           violet
         );
       }
+
+      @keyframes animationName {
+        0% {
+          background-color: red;
+        }
+        25% {
+          background-color: yellow;
+        }
+        50% {
+          background-color: blue;
+        }
+        100% {
+          background-color: green;
+        }
+      }
+
+      #animate {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: animationName;
+        animation-duration: 8s;
+      }
     </style>
   </head>
 
@@ -37,5 +60,6 @@
     Hello World
 
     <div id="grad1">Welcome to Codingal</div>
+    <div id="animate">Hi</div>
   </body>
 </html>
